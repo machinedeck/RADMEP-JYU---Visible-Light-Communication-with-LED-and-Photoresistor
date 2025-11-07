@@ -58,3 +58,15 @@ Below is the actual image of the project circuitry:
 <p align = "center">
   <img src = "Pictures/actual.jpg">
 </p>
+
+## 5. References
+
+LED data transmission
+- [https://www.youtube.com/watch?v=IdU6eCJ9Rh0](https://www.youtube.com/watch?v=IdU6eCJ9Rh0)
+- [https://youtube.com/watch?v=fZRwGFk6bZo](https://youtube.com/watch?v=fZRwGFk6bZo)
+
+Software interface using Tkinter
+- [https://www.geeksforgeeks.org/create-first-gui-application-using-python-tkinter/?ref=lbp](https://www.geeksforgeeks.org/create-first-gui-application-using-python-tkinter/?ref=lbp)
+
+Creating circuit diagrams
+- [https://www.circuit-diagram.org/editor/](https://www.circuit-diagram.org/editor/)
