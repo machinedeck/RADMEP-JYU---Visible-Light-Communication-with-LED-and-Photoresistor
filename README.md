@@ -72,7 +72,7 @@ The following libraries should be installed beforehand:
 **Receiver**
 - `receiver.ino` : Arduino code for signal acquisition.
 
-## 5. References
+## 6. References
 
 LED data transmission
 - [https://www.youtube.com/watch?v=IdU6eCJ9Rh0](https://www.youtube.com/watch?v=IdU6eCJ9Rh0)
