@@ -42,12 +42,12 @@ The 20 kΩ-resistor was later on chosen for the circuit. Zooming in to the photo
 
 The red dashed line was set to be the boundary above which bit is considered **ON** and **OFF** otherwise. The green dashed lines correspond to the ideal LED blinking response; however, the transition from light to dark was not as abrupt as the inverse transition. If the sampling rate was chosen to be identical to that of the green dashed lines, then it would not reliably recover the information because there are originally **ON** bits that are considered **OFF** by the photoresistor. To address this, smaller transfer rate was implemented on the transmitter side.
 
-## Setup Specifications
+## 4. Setup Specifications
 These were the final details of the setup:
-- Device should be in a black box
-- Transmitter LED to receiver photoresistor distance: 0.5 cm
-- Transfer rate: 0.6 bit/s (1.5 s per bit)
-- Data transmission limited only to numbers from 0-255
+- Device should be in a **black box**
+- Transmitter LED to receiver photoresistor distance: **0.5 cm**
+- Transfer rate: **0.6 bit/s (1.5 s per bit)**
+- Data transmission limited only to **numbers from 0-255**
 - pyFirmata used to control Arduino UNO pins in Python
 
 <p align = "center">
