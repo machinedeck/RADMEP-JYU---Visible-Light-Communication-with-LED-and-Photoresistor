@@ -59,6 +59,19 @@ Below is the actual image of the project circuitry:
   <img src = "Pictures/actual.jpg">
 </p>
 
+## 5. Codes
+**Requirements**
+The following libraries should be installed beforehand:
+- [`pyFirmata`](https://pypi.org/project/pyFirmata)
+- [`Tkinter`](https://docs.python.org/3/library/tkinter.html)
+
+**Transmitter**
+- `pyarduino_comm.py` : Code that interfaces Python and Arduino. Also handles the conversion into an 8-bit binary number, the LED for initiating and terminating communication, and the transmitter LED blinking.
+- `transmitter.py` : Code that runs the UI interface allowing to select the number from 0-255 to be sent to the receiver side. Uses `pyarduino_comm.py`.
+
+**Receiver**
+- `receiver.ino` : Arduino code for signal acquisition.
+
 ## 5. References
 
 LED data transmission
